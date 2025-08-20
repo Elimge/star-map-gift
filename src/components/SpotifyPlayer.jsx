@@ -1,4 +1,6 @@
 // src/components/SpotifyPlayer.jsx
+ 
+import heartLetter from "../assets/letters/la-dueña.pdf";
 
 function SpotifyPlayer() {
     const playlistUrl = "https://open.spotify.com/embed/playlist/6QukF5uhm6lic04y3ONGM1?utm_source=generator&theme=0";
@@ -22,7 +24,18 @@ function SpotifyPlayer() {
             ></iframe>
 
             <p className="mt-8 text-lg text-moon-glow/80 italic">
-                ¿Quién soy yo para que me premies con tan precioso regalo?
+                <p>¿Quién soy yo para que me premies con tan precioso regalo? </p>
+                <p>- Carta de Migue al Niño Dios</p>
+            <br />
+                <a
+                    href={heartLetter}
+                    download="Feliz_Aniversario_2.pdf"
+                    className="text-cyan-400 hover:underline font-bold not-italic"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    ¿Crees que este es el final de este obsequio? Pues da clic aquí y descubrelo.
+                </a>
             </p>
         </section>
     );

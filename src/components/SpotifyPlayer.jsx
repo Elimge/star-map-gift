@@ -1,10 +1,8 @@
 // src/components/SpotifyPlayer.jsx
  
-
-
 function SpotifyPlayer() {
     const playlistUrl = "https://open.spotify.com/embed/playlist/6QukF5uhm6lic04y3ONGM1?utm_source=generator&theme=0";
-    const pdfUrl = "/star-map-project/letters/la-dueña.pdf";
+    const pdfUrl = "/star-map-gift/letters/la-dueña.pdf";
 
     return (
         <section className="mt-16 w-full max-w-2xl mx-auto text-center">

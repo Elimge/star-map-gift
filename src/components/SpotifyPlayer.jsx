@@ -1,9 +1,10 @@
 // src/components/SpotifyPlayer.jsx
  
-import heartLetter from "../assets/letters/la-dueña.pdf";
+
 
 function SpotifyPlayer() {
     const playlistUrl = "https://open.spotify.com/embed/playlist/6QukF5uhm6lic04y3ONGM1?utm_source=generator&theme=0";
+    const pdfUrl = "/star-map-project/letters/la-dueña.pdf";
 
     return (
         <section className="mt-16 w-full max-w-2xl mx-auto text-center">
@@ -28,7 +29,7 @@ function SpotifyPlayer() {
                 <p>- Carta de Migue al Niño Dios</p>
             <br />
                 <a
-                    href={heartLetter}
+                    href={pdfUrl}
                     download="Feliz_Aniversario_2.pdf"
                     className="text-cyan-400 hover:underline font-bold not-italic"
                     target="_blank"
